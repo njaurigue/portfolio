@@ -4,20 +4,15 @@ body{
 
 /*TOPNAV*/
 
-.landing{
-    background-image: url(images/splashSunset.jpeg);
-}
-
 .topnav{
     overflow: hidden;
-    border-bottom: 1px solid grey;
 }
 
 #topname{
     float: left;
 }
 
-.topnav a{
+.nav a, #topname{
     float: right;
     color: black;
     text-align: center;
@@ -25,6 +20,18 @@ body{
     font-size: 18px;
     text-decoration: none;
     transition: 0.5s;
+}
+
+.nav{
+    position: absolute;
+    top: 1px;
+    right: 1px;
+}
+
+#topname{
+    position: absolute;
+    top: 1px;
+    left: 1px;
 }
 
 .nav a:hover{
