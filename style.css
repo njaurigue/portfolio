@@ -3,6 +3,11 @@ body{
 }
 
 /*TOPNAV*/
+
+.landing{
+    background-image: url(images/splashSunset.jpeg);
+}
+
 .topnav{
     overflow: hidden;
     border-bottom: 1px solid grey;
@@ -27,7 +32,5 @@ body{
     background-color: grey;
 }
 
-hr{
-    border-top: 1px;
-    border-radius: 10px;
-}
+/*LANDING PAGE*/
+
