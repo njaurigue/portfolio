@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: "Source Code Pro";
 }
 
 /*TOPNAV*/
@@ -14,10 +15,10 @@ body{
 
 .nav a, #topname{
     float: right;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
-    font-size: 18px;
+    font-size: 16px;
     text-decoration: none;
     transition: 0.5s;
 }
@@ -36,8 +37,35 @@ body{
 
 .nav a:hover{
     color: white;
-    background-color: grey;
+    background-color: lightpink;
 }
 
-/*LANDING PAGE*/
+/*EDUCATION*/
+
+#education{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300; 
+}
+
+/*educationLEFT*/
+#educationLEFT{
+    text-align: center;
+    font-weight: 300;
+    width: 30%;
+    margin-left: 4%;
+    margin-top: 4%;
+    background-color: #182B49;
+    padding: 20px;
+    font-size: 18px;
+    color: white;
+}
+
+
+/*educationRIGHT*/
+.education{
+    display: inline-block;
+}
+
+
 
