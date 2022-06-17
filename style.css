@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+
+/*TOPNAV*/
+.topnav{
+    overflow: hidden;
+    border-bottom: 1px solid grey;
+}
+
+#topname{
+    float: left;
+}
+
+.topnav a{
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav a:hover{
+    color: white;
+    background-color: grey;
+}
+
+hr{
+    border-top: 1px;
+    border-radius: 10px;
+}
