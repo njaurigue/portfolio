@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: "Source Code Pro";
+    min-width: 500px;
 }
 
 /*TOPNAV*/
@@ -54,7 +55,7 @@ body{
     font-weight: 300;
     width: 30%;
     margin-left: 4%;
-    margin-top: 4%;
+    margin-top: 0%;
     background-color: #182B49;
     padding: 20px;
     font-size: 18px;
@@ -65,6 +66,7 @@ body{
 /*educationRIGHT*/
 .education{
     display: inline-block;
+    margin-top: 0%;
 }
 
 
