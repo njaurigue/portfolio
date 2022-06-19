@@ -51,15 +51,18 @@ body{
 .education{
     display: inline-block;
     margin-top: 0%;
+    height: 600px;
+    overflow: hidden;
 }
 
 /*educationLEFT*/
 #educationLEFT{
     text-align: center;
     font-weight: 300;
+
     width: 30%;
     margin-left: 4%;
-    margin-top: 1%;
+    margin-top: 30px;
     background-color: #182B49;
     padding: 20px;
     font-size: 18px;
@@ -76,13 +79,24 @@ body{
     text-align: left;
     width: 50%;
     margin-right: 4%;
-    margin-top: 1%;
+    margin-top: 10px;
     position: absolute;
     padding-left: 4%;
+    font-size: #vw;
 }
 
-#educationRIGHT h2, h3{
+#educationRIGHT h3, li{
     font-weight: 300;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: lightgrey;
+}
+
+#github{
+    color:black;
 }
 
 
