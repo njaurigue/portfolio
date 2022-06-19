@@ -37,16 +37,20 @@ body{
 }
 
 .nav a:hover{
-    color: white;
     background-color: lightpink;
 }
 
 /*EDUCATION*/
 
-#education{
+#educationHEADER{
     text-align: center;
     font-size: 30px;
-    font-weight: 300; 
+    font-weight: 400; 
+}
+
+.education{
+    display: inline-block;
+    margin-top: 0%;
 }
 
 /*educationLEFT*/
@@ -55,19 +59,36 @@ body{
     font-weight: 300;
     width: 30%;
     margin-left: 4%;
-    margin-top: 0%;
+    margin-top: 1%;
     background-color: #182B49;
     padding: 20px;
     font-size: 18px;
     color: white;
 }
 
+#seal{
+    max-width: 80%;
+}
+
 
 /*educationRIGHT*/
-.education{
-    display: inline-block;
-    margin-top: 0%;
+#educationRIGHT{
+    text-align: left;
+    width: 50%;
+    margin-right: 4%;
+    margin-top: 1%;
+    position: absolute;
+    padding-left: 4%;
 }
+
+#educationRIGHT h2, h3{
+    font-weight: 300;
+}
+
+
+
+
+
 
 
 
