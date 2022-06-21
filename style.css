@@ -1,10 +1,32 @@
 body{
     margin: 0;
+    min-width: none;
+    font-family: "Source Code Pro";
+}
+
+.sectionOne{
+    width: 100%;
+    height: 800px;
+    background-image: url(images/splashSunset.jpeg);
+    background-size: cover;
+}
+
+#topName{
+
+}
+
+.nav, #topName{
+
+}
+
+
+/*-------------FIRST DRAFT----------------
+
+body{
+    margin: 0;
     font-family: "Source Code Pro";
     min-width: 500px;
 }
-
-/*TOPNAV*/
 
 .topnav{
     overflow: hidden;
@@ -40,8 +62,6 @@ body{
     background-color: lightpink;
 }
 
-/*EDUCATION*/
-
 #educationHEADER{
     text-align: center;
     font-size: 30px;
@@ -54,7 +74,6 @@ body{
     height: 600px;
 }
 
-/*educationLEFT*/
 #educationLEFT{
     text-align: center;
     font-weight: 300;
@@ -72,8 +91,6 @@ body{
     max-width: 80%;
 }
 
-
-/*educationRIGHT*/
 #educationRIGHT{
     text-align: left;
     width: 50%;
@@ -88,8 +105,6 @@ body{
     font-weight: 300;
 }
 
-/*FOOTER*/
-
 footer{
     background-color: lightgrey;
 }
@@ -97,6 +112,8 @@ footer{
 #github{
     color:black;
 }
+
+*/
 
 
 
