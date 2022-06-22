@@ -88,7 +88,7 @@ body{
     font-size: 18px;
 }
 
-.courses{
+.courses{ /*width needs to be relative to parent container (also min width to allow overflow)*/
     float: left;
     background-color: green;
     height: 500px;
