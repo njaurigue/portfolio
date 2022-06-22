@@ -41,42 +41,60 @@ body{
 
 /*SECTION TWO*/ 
 
-.sectionTwo {
+.sectionTwo{
     background-color: white;
-    color: white;
-    height: 800px;
-    padding: 20px;
+    height: 600px;
 }
 
-.twoLeft, .twoRight{
-    display: inline-block;
-    color: black;
-    font-size: 16px;
-    overflow: hidden;
-}
-
-.sectionTwo h1{
+#educationHeader{
     text-align: center;
-    color: black;
+    margin-bottom: 0;
 }
 
 .twoLeft{
-    height: 400px;
-    padding: 100px 10px;
-    width: 35%;
-    text-align: center;
-    color: white;
-    background-color: #182B49;
-}
-
-.twoLeft img{
-    max-width: 70%;
+    float: left;
+    background-color: orangered;
+    width: 40%;
+    height: 600px;
 }
 
 .twoRight{
+    float: right;
+    background-color: yellow;
+    width: 60%;
     height: 600px;
-    padding: 20px 10px;
-    width: 50%;
+}
+
+.degree{
+    position: relative;
+    float: right;
+    background-color: #182B49;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    color: white;
+
+    margin: 50px 20px 50px 0; 
+}
+
+.degreeInfo{
+    background-color: purple;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    font-size: 18px;
+}
+
+.courses{
+    float: left;
+    background-color: green;
+    height: 500px;
+    width: 800px;
+    color: black;
+
+    margin: 50px 0 50px 20px;
 }
 
 /*SECTION THREE*/
