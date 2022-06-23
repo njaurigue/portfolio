@@ -31,7 +31,7 @@ body{
     color: white;
     text-align: center;
     padding: 14px 16px;
-    font-size: min(18px, 1.5vw);
+    font-size: min(18px, 2vw);
     text-decoration: none;
     transition: 0.5s;
 }
@@ -87,7 +87,7 @@ body{
     top: 50%;
     transform: translateY(-50%);
 
-    font-size: 16px
+    font-size: min(16px, 3vw);
 }
 
 #seal{
