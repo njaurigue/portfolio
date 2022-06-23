@@ -55,7 +55,7 @@ body{
 
 .twoLeft{
     float: left;
-    background-color: orangered;
+    background-color: yellow;
     width: 40%;
     height: 600px;
 }
