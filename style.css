@@ -13,7 +13,7 @@ body{
 
 .sectionOne{
     width: 100%;
-    height: 900px;
+    height: 90vh;
     background-image: url(images/splashSunset.jpeg);
     background-size: cover;
     background-position: center center;
@@ -55,7 +55,7 @@ body{
 
 .twoLeft{
     float: left;
-    background-color: orangered;
+    background-color: yellow;
     width: 40%;
     height: 600px;
 }
@@ -127,6 +127,12 @@ body{
     background-color: darkgreen;
     height: 800px;
 }
+
+#contactsHeader{
+    text-align: center;
+    margin-bottom: 0;
+}
+
 
 /*SECTION FOOTER*/
 
