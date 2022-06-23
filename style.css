@@ -96,15 +96,22 @@ body{
 
 .courses{ /*width needs to be relative to parent container (also min width to allow overflow)*/
     float: left;
+    position: relative;
     background-color: green;
     height: 500px;
-    width: 80%;
+    width: 90%;
     max-width: 800px;
     overflow: hidden;
     color: black;
 
     margin: 50px 0 50px 20px;
-    font-size: min(15px, 1.5vw);
+    font-size: min(14px, 2vw);
+}
+
+.courseList{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 /*SECTION THREE*/
