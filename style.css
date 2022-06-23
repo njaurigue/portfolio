@@ -71,7 +71,8 @@ body{
     position: relative;
     float: right;
     background-color: #182B49;
-    width: 400px;
+    width: 80%;
+    max-width: 400px;
     height: 500px;
     text-align: center;
     color: white;
@@ -81,12 +82,16 @@ body{
 
 .degreeInfo{
     background-color: purple;
-    width: 400px;
+    width: 100%;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
 
-    font-size: 18px;
+    font-size: 16px
+}
+
+#seal{
+    max-width: 70%;
 }
 
 .courses{ /*width needs to be relative to parent container (also min width to allow overflow)*/
