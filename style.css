@@ -140,7 +140,7 @@ body{
 .contactsWrapper{
     float: right;
     height: 100%;
-    width: min(400px, 95%);
+    width: min(400px, 90%);
     margin: 0 10px 0 0;
     position: relative;
 }
@@ -162,7 +162,7 @@ body{
 }
 
 .contactList{
-    background-color: orangered;
+    background-color: yellow;
     width: min(600px, 55%);
     height: 60%;
 
