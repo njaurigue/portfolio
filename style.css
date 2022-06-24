@@ -44,7 +44,7 @@ body{
 
 .sectionTwo{
     background-color: white;
-    height: 600px;
+    height: 640px;
 }
 
 #educationHeader{
@@ -55,14 +55,12 @@ body{
 
 .twoLeft{
     float: left;
-    background-color: yellow;
     width: 40%;
     height: 600px;
 }
 
 .twoRight{
     float: right;
-    background-color: blue;
     width: 60%;
     height: 600px;
 }
@@ -81,7 +79,6 @@ body{
 }
 
 .degreeInfo{
-    background-color: purple;
     width: 100%;
     position: absolute;
     top: 50%;
@@ -94,10 +91,9 @@ body{
     max-width: 70%;
 }
 
-.courses{ /*width needs to be relative to parent container (also min width to allow overflow)*/
+.courses{
     float: left;
     position: relative;
-    background-color: green;
     height: 500px;
     width: 90%;
     max-width: 800px;
@@ -185,8 +181,13 @@ footer{
 }
 
 footer p{
+    width: 100%;
     margin: 0;
     font-size: 14px;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 /*-------------FIRST DRAFT----------------
