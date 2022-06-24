@@ -193,11 +193,11 @@ body{
 
 .icon{
     margin: 0 10px;
-    width: min(15%, 80px);
+    width: min(12%, 80px);
 }
 
 #githubIcon{
-    width: min(15%, 85px);
+    width: min(12%, 85px);
 }
 
 /*SECTION FOOTER*/
