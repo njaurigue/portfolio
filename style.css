@@ -44,7 +44,7 @@ body{
 
 .sectionTwo{
     background-color: white;
-    height: 640px;
+    height: 580px;
 }
 
 #educationHeader{
@@ -56,13 +56,13 @@ body{
 .twoLeft{
     float: left;
     width: 40%;
-    height: 600px;
+    height: 550px;
 }
 
 .twoRight{
     float: right;
     width: 60%;
-    height: 600px;
+    height: 550px;
 }
 
 .degree{
@@ -71,11 +71,11 @@ body{
     background-color: #182B49;
     width: 80%;
     max-width: 400px;
-    height: 500px;
+    height: 450px;
     text-align: center;
     color: white;
 
-    margin: 50px 20px 50px 0; 
+    margin: 30px 20px 50px 0; 
 }
 
 .degreeInfo{
@@ -85,6 +85,10 @@ body{
     transform: translateY(-50%);
 
     font-size: min(16px, 3vw);
+}
+
+.degreeInfo p{
+    margin: 8px 4px;
 }
 
 #seal{
@@ -100,7 +104,7 @@ body{
     overflow: hidden;
     color: black;
 
-    margin: 50px 0 50px 20px;
+    margin: 2px 0 50px 3%;
     font-size: min(14px, 2vw);
 }
 
@@ -128,7 +132,6 @@ body{
 
 .fourLeft{
     float: left;
-    background-color: blue;
     width: 45%;
     height: 100%
 }
@@ -152,15 +155,13 @@ body{
 
 .fourRight{
     float: right;
-    background-color: green;
     width: 55%;
     height: 100%;
 }
 
 .contactList{
-    background-color: yellow;
-    width: min(600px, 55%);
-    height: 60%;
+    width: min(700px, 55%);
+    height: 40%;
 
     position: absolute;
     top: 50%;
@@ -169,6 +170,34 @@ body{
 
 #contactsHeader{
     text-align: center;
+}
+
+.icons{
+    width: 100%;
+    text-align: center;
+    color: white;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.icons a{
+    color: white;
+}
+    
+.contact{
+    display: block;
+    padding: 5px 0;
+}
+
+.icon{
+    margin: 0 10px;
+    width: min(15%, 80px);
+}
+
+#githubIcon{
+    width: min(15%, 85px);
 }
 
 /*SECTION FOOTER*/
