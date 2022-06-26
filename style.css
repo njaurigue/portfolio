@@ -12,7 +12,6 @@ body{
 /*SECTION ONE*/ 
 
 .sectionOne{
-    width: 100vw;
     height: 100vh;
     background-image: url(images/splashSunset.jpeg);
     background-size: cover;
@@ -150,30 +149,42 @@ body{
 .sectionThree{
     background-color: lightgrey;
     height: 700px;
-    width: 100%;
     display: flex;
     align-items: center;
 }
 
 #projectsHeader{
+    float: right;
     text-align: center;
     padding: 0 10px;
 }
 
 .projectIcons{
     background-color: grey;
-    display: flex;
-    align-items: center;
     width: 80%;
     height: 500px;
+    text-align: center;
 }
 
-.row
+.row{
+    height: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+#rowOne{
+    background-color: lightblue;
+}
+
+#rowTwo{
+    background-color: pink;
+}
 
 .project{
-    background-color: red;
-    width: 100px;
-    height: 100px;
+    display: inline-block;
+    background-color: white;
+    width: 150px;
+    height: 150px;
     /*
     height: min(100px, 25%);
     width: min(10px, 25%);
