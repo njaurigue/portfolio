@@ -148,8 +148,36 @@ body{
 /*SECTION THREE*/
 
 .sectionThree{
-    background-color: maroon;
-    height: 800px;
+    background-color: lightgrey;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#projectsHeader{
+    text-align: center;
+    padding: 0 10px;
+}
+
+.projectIcons{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 500px;
+}
+
+.row
+
+.project{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    /*
+    height: min(100px, 25%);
+    width: min(10px, 25%);
+    */
 }
 
 /*SECTION FOUR*/
