@@ -44,7 +44,7 @@ body{
 
 .sectionTwo{
     background-color: white;
-    height: 580px;
+    height: 710px;
 }
 
 #educationHeader{
@@ -52,17 +52,16 @@ body{
     margin-bottom: 0;
 }
 
-
 .twoLeft{
     float: left;
     width: 40%;
-    height: 550px;
+    height: 510px;
 }
 
 .twoRight{
     float: right;
     width: 60%;
-    height: 550px;
+    height: 510px;
 }
 
 .degree{
@@ -112,6 +111,38 @@ body{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.primarySkills{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    font-size: min(2vw, 18px);
+}
+
+.primarySkills img{
+    width: min(100px, 11vw);
+    margin: 0 10px 0 0;
+}
+
+#javaIcon{
+    margin: 0; 
+}
+
+.otherSkills{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: min(60px, 6vw);
+    justify-content: center;
+    font-size: min(2vw, 16px);
+}
+
+.otherSkills img{
+    width: min(50px, 6vw);
+    margin: 0 0 0 5px;
 }
 
 /*SECTION THREE*/
