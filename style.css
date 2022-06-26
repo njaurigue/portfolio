@@ -12,7 +12,7 @@ body{
 /*SECTION ONE*/ 
 
 .sectionOne{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-image: url(images/splashSunset.jpeg);
     background-size: cover;
