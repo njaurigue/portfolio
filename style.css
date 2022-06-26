@@ -9,7 +9,7 @@ body{
     margin: 0;
 }
 
-/*SECTION ONE*/ 
+/*------------------------SECTION ONE------------------------*/ 
 
 .sectionOne{
     height: 100vh;
@@ -39,7 +39,7 @@ body{
     background-color: lightpink;
 }
 
-/*SECTION TWO*/ 
+/*------------------------SECTION TWO------------------------*/ 
 
 .sectionTwo{
     background-color: white;
@@ -144,7 +144,7 @@ body{
     margin: 0 0 0 5px;
 }
 
-/*SECTION THREE*/
+/*------------------------SECTION THREE------------------------*/
 
 .sectionThree{
     background-color: lightgrey;
@@ -153,7 +153,7 @@ body{
 
 #projectsHeader{
     text-align: center;
-    padding: 10px 10px 0 16px;
+    padding: 16px 10px 0 16px;
 }
 
 .projectIcons{
@@ -163,7 +163,7 @@ body{
 }
 
 .row{
-    height: 50%;
+    height: 300px;
     width: 100%;
     text-align: center;
 }
@@ -175,21 +175,30 @@ body{
 
 #rowTwo{
     background-color: navy;
-}*/
+}
+*/
+
+
+#rowOne div[class="project"]{
+    margin: 52px 12px;
+}
+
+#rowTwo div[class="project"]{
+    margin: 12px;
+}
 
 .project{
     display: inline-block;
     background-color: white;
-    width: 230px;
-    height: 230px;
-    margin: 43px 12px;
+    width: 236px;
+    height: 236px;
 }
 
 .projectIcons h3{
     background-color: grey;
 }
 
-/*SECTION FOUR*/
+/*------------------------SECTION FOUR------------------------*/
 
 .sectionFour{
     background-color: white;
@@ -268,7 +277,7 @@ body{
     width: min(12%, 80px);
 }
 
-/*SECTION FOOTER*/
+/*------------------------SECTION FOOTER------------------------*/
 
 footer{
     background-color:#D3D3D3;
