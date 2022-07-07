@@ -83,12 +83,16 @@ h1{
 
 .twoRight{
     border: 1px solid yellow;
-    flex: 5;
+    flex: 6;
 
     display: flex;
     flex-direction: column;
     text-align: left;
     justify-content: center;
+}
+
+#seal{
+    max-width: 70%;
 }
 
 /*------------------------SECTION THREE------------------------*/
