@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+    font-size: 10px;
 }
 
 body{
@@ -13,7 +14,7 @@ body{
 .section{
     display: flex;
     flex-direction: column;
-    height: clamp(60vh, 80vw, 80vh);
+    height: clamp(60vh, 80vw, 70vh);
     width: 100vw;
 }
 
@@ -32,7 +33,7 @@ h1{
 /*------------------------SECTION ONE------------------------*/ 
 
 .sectionOne{
-    height: 90vh;
+    height: 100vh;
     background-image: url(images/splashSunset.jpeg);
     background-size: cover;
     background-position: center center;
@@ -63,16 +64,11 @@ h1{
 
 /*------------------------SECTION TWO------------------------*/
 
-.sectionTwo{
-    font-size: clamp(.5rem, 1.5vmin, 1.1rem);
-}
-
 .twoLeft{
     background-color: #182B49;
     color: white;
-    margin-right: 1em;
-    margin-left: 3em;
-    padding: 4em 0;
+    margin: 0 5em;
+    padding: 2em 0;
     flex: 3;
 
     display: flex;
@@ -80,6 +76,7 @@ h1{
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-size: clamp(0.5rem, 1.5vmin, 2rem);
 }
 
 .twoRight{
@@ -89,10 +86,11 @@ h1{
     flex-direction: column;
     text-align: left;
     justify-content: center;
+    font-size: clamp(.5rem, 1.5vmin, 1.5rem);
 }
 
 #seal{
-    max-width: 60%;
+    max-width: 50%;
 }
 
 /*------------------------SECTION THREE------------------------*/
