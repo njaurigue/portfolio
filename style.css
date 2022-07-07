@@ -4,20 +4,28 @@ html{
 
 body{
     font-family: "Source Code Pro";
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     margin: 0;
+}
+
+.section{
+    display: flex;
+    height: clamp(50vh, 80vw, 70vh);
+    width: 100vw;
 }
 
 /*------------------------SECTION ONE------------------------*/ 
 
 .sectionOne{
-    height: 100vh;
+    height: 90vh;
     background-image: url(images/splashSunset.jpeg);
     background-size: cover;
     background-position: center center;
 }
 
+/*
 #topName{
     float: left;
 }
@@ -38,8 +46,27 @@ body{
 .nav a:hover{
     background-color: lightpink;
 }
+*/
 
-/*------------------------SECTION TWO------------------------*/ 
+/*------------------------SECTION TWO------------------------*/
+
+.sectionTwo{
+    background-color: red;
+}
+
+/*------------------------SECTION THREE------------------------*/
+
+.sectionThree{
+    background-color: blue;
+}
+
+/*------------------------SECTION THREE------------------------*/
+
+.sectionFour{
+    background-color: green;
+}
+
+/*------------------------SECTION TWO------------------------ 
 
 .sectionTwo{
     background-color: white;
@@ -144,7 +171,7 @@ body{
     margin: 0 0 0 5px;
 }
 
-/*------------------------SECTION THREE------------------------*/
+/*------------------------SECTION THREE------------------------
 
 .sectionThree{
     background-color: lightgrey;
@@ -198,7 +225,7 @@ body{
     background-color: grey;
 }
 
-/*------------------------SECTION FOUR------------------------*/
+/*------------------------SECTION FOUR------------------------
 
 .sectionFour{
     background-color: white;
@@ -277,7 +304,7 @@ body{
     width: min(12%, 80px);
 }
 
-/*------------------------SECTION FOOTER------------------------*/
+/*------------------------SECTION FOOTER------------------------
 
 footer{
     background-color:#D3D3D3;
@@ -296,105 +323,4 @@ footer p{
     transform: translateY(-50%);
 }
 
-/*-------------FIRST DRAFT----------------
-
-body{
-    margin: 0;
-    font-family: "Source Code Pro";
-    min-width: 500px;
-}
-
-.topnav{
-    overflow: hidden;
-}
-
-#topname{
-    float: left;
-}
-
-.nav a, #topname{
-    float: right;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    font-size: 16px;
-    text-decoration: none;
-    transition: 0.5s;
-}
-
-.nav{
-    position: absolute;
-    top: 1px;
-    right: 1px;
-}
-
-#topname{
-    position: absolute;
-    top: 1px;
-    left: 1px;
-}
-
-.nav a:hover{
-    background-color: lightpink;
-}
-
-#educationHEADER{
-    text-align: center;
-    font-size: 30px;
-    font-weight: 400; 
-}
-
-.education{
-    display: inline-block;
-    margin-top: 0%;
-    height: 600px;
-}
-
-#educationLEFT{
-    text-align: center;
-    font-weight: 300;
-
-    width: 30%;
-    margin-left: 4%;
-    margin-top: 30px;
-    background-color: #182B49;
-    padding: 20px;
-    font-size: 18px;
-    color: white;
-}
-
-#seal{
-    max-width: 80%;
-}
-
-#educationRIGHT{
-    text-align: left;
-    width: 50%;
-    margin-right: 4%;
-    margin-top: 10px;
-    position: absolute;
-    padding-left: 4%;
-    font-size: 1.5vh;
-}
-
-#educationRIGHT h3, li{
-    font-weight: 300;
-}
-
-footer{
-    background-color: lightgrey;
-}
-
-#github{
-    color:black;
-}
-
 */
-
-
-
-
-
-
-
-
