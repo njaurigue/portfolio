@@ -12,7 +12,7 @@ body{
 
 .section{
     display: flex;
-    height: clamp(50vh, 80vw, 70vh);
+    height: clamp(60vh, 80vw, 80vh);
     width: 100vw;
 }
 
