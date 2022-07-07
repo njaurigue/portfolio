@@ -70,7 +70,8 @@ h1{
 .twoLeft{
     background-color: #182B49;
     color: white;
-    margin: 1em;
+    margin-right: 1em;
+    margin-left: 3em;
     padding: 4em 0;
     flex: 3;
 
