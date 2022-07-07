@@ -13,7 +13,7 @@ body{
 .section{
     display: flex;
     flex-direction: column;
-    height: clamp(60vh, 80vw, 80vh);
+    height: clamp(60vh, 80vw, 70vh);
     width: 100vw;
 }
 
@@ -22,7 +22,7 @@ h1{
 }
 
 .info{
-    border: 1px solid white;
+    border: 1px solid red;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -71,7 +71,7 @@ h1{
     background-color: #182B49;
     color: white;
     margin: 1em;
-    padding: 5em 0;
+    padding: 4em 0;
     flex: 3;
 
     display: flex;
@@ -90,7 +90,7 @@ h1{
 }
 
 #seal{
-    max-width: 70%;
+    max-width: 60%;
 }
 
 /*------------------------SECTION THREE------------------------*/
