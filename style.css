@@ -25,6 +25,7 @@ h1{
     border: 1px solid white;
     display: flex;
     flex-direction: row;
+    align-items: center;
     flex: 1;
 }
 
@@ -63,16 +64,14 @@ h1{
 /*------------------------SECTION TWO------------------------*/
 
 .sectionTwo{
-    background-color: red;
     font-size: clamp(.5rem, 1.5vmin, 1.1rem);
-
 }
 
 .twoLeft{
-    border: 1px solid yellow;
     background-color: #182B49;
     color: white;
     margin: 1em;
+    padding: 5em 0;
     flex: 3;
 
     display: flex;
@@ -82,7 +81,6 @@ h1{
 }
 
 .twoRight{
-    border: 1px solid yellow;
     flex: 6;
 
     display: flex;
