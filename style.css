@@ -19,6 +19,7 @@ body{
 }
 
 h1{
+    margin-top: 1.5em;
     text-align: center;
 }
 
@@ -26,7 +27,6 @@ h1{
     border: 1px solid red;
     display: flex;
     flex-direction: row;
-    align-items: center;
     flex: 1;
 }
 
@@ -67,8 +67,9 @@ h1{
 .twoLeft{
     background-color: #182B49;
     color: white;
-    margin: 0 5em;
-    padding: 2em 0;
+    align-self: center;
+    margin: 0 2rem;
+    padding: 4em 0;
     flex: 3;
 
     display: flex;
@@ -76,21 +77,33 @@ h1{
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: clamp(0.5rem, 1.5vmin, 2rem);
+}
+
+.twoLeft p{
+    font-size: clamp(1.3rem, 1.75vmin, 70rem);
 }
 
 .twoRight{
+    border: 1px solid yellow;
     flex: 6;
 
     display: flex;
     flex-direction: column;
     text-align: left;
     justify-content: center;
-    font-size: clamp(.5rem, 1.75vmin, 1.5rem);
+    font-size: clamp(1.1rem, 1.75vmin, 1.5rem);
+}
+
+.twoPad{
+    flex: 0.5;
 }
 
 #seal{
-    max-width: 50%;
+    max-width: 60%;
+}
+
+.twoRight h3{
+    margin: 0;
 }
 
 /*------------------------SECTION THREE------------------------*/
