@@ -80,7 +80,7 @@ h1{
 }
 
 .twoLeft p{
-    font-size: clamp(1.3rem, 1.75vmin, 70rem);
+    font-size: clamp(1.3rem, 1.75vmin, 10rem);
 }
 
 .twoRight{
@@ -99,6 +99,7 @@ h1{
 }
 
 #seal{
+    width: clamp(1.3rem, 1.75vmin, 10rem);
     max-width: 60%;
 }
 
