@@ -99,8 +99,7 @@ h1{
 }
 
 #seal{
-    width: clamp(1.3rem, 1.75vmin, 10rem);
-    max-width: 60%;
+    width: clamp(12rem, 20vmin, 25rem);
 }
 
 .twoRight h3{
