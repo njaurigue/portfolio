@@ -48,7 +48,7 @@ h1{
 }
 
 .landingText{
-    flex: 5;
+    flex: 6;
 }
 
 #name, #portfolio{
@@ -56,11 +56,11 @@ h1{
 }
 
 #break{
-
+    width: 40%;
 }
 
 .onePad{
-    flex: 5;
+    flex: 4;
 }
 
 
