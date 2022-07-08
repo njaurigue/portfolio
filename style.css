@@ -14,7 +14,7 @@ body{
 .section{
     display: flex;
     flex-direction: column;
-    height: clamp(60vh, 80vw, 70vh);
+    height: clamp(60vh, 80vw, 60vh);
     width: 100vw;
 }
 
@@ -39,8 +39,31 @@ h1{
     background-position: center center;
 
     font-family: 'Playfair Display', serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     text-align: center;
+    font-size: 2rem;
+    color: white;
 }
+
+.landingText{
+    flex: 5;
+}
+
+#name, #portfolio{
+    margin: 0;
+}
+
+#break{
+
+}
+
+.onePad{
+    flex: 5;
+}
+
+
 
 /*
 #topName{
