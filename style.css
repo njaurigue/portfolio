@@ -19,13 +19,13 @@ body{
 }
 
 h1{
-    margin-top: 1.5 rem;
+    margin-top: 2rem;
     margin-bottom: 0;
     text-align: center;
+    font-size: clamp(2rem, 3vmin, 3rem);
 }
 
 .info{
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
     flex: 1;
@@ -92,6 +92,10 @@ h1{
 
 /*------------------------SECTION TWO------------------------*/
 
+.sectionTwo{
+    height: fit-content;
+}
+
 .twoLeft{
     background-color: #182B49;
     color: white;
@@ -122,6 +126,10 @@ h1{
     font-size: clamp(0.75rem, 1.75vmin, 1.5rem);
 }
 
+#twoInfo{
+    margin: 2rem 0;
+}
+
 .twoPad{
     flex: 0.5;
 }
@@ -137,19 +145,31 @@ h1{
 /*------------------------SECTION THREE------------------------*/
 
 .sectionThree{
-    background-color: blue;
-    height: clamp(60vh, 80vw, 70vh);
+    background-color: black;
+    height: fit-content;
 }
 
 #threeInfo{
-    margin: 1rem 0;
+    margin: 5rem 5vw;
+    justify-content: center;
+
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 4rem;
+    grid-template-columns: repeat(auto-fit, 25rem);
+    grid-gap: 2rem;
 }
 
 .project{
-    border: 1px solid grey;
+    background-color: grey;
+    height: 25rem;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#projectsHeader{
+    color: white;
+    margin-top: 3rem;
 }
 
 /*------------------------SECTION THREE------------------------*/
