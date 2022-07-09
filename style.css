@@ -135,7 +135,7 @@ h1{
 }
 
 #seal{
-    width: clamp(12rem, 20vmin, 25rem);
+    width: min(80%, 25rem);
 }
 
 .twoRight h3{
@@ -150,7 +150,7 @@ h1{
 }
 
 #threeInfo{
-    margin: 5rem 5vw;
+    margin: 2rem 5vw;
     justify-content: center;
 
     display: grid;
@@ -169,7 +169,7 @@ h1{
 
 #projectsHeader{
     color: white;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 /*------------------------SECTION THREE------------------------*/
