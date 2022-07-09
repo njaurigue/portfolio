@@ -55,11 +55,12 @@ h1{
 
 .landingText img{
     filter: invert();
-    width: 4rem;
+    width: 3rem;
     margin: 0 .2rem;
 }
 
 .iconLinks{
+    margin-top: 0.25rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -67,11 +68,11 @@ h1{
 }
 
 #emailIcon{
-    width: 4.8rem;
+    width: 3.65rem;
 }
 
 #githubIcon{
-    width: 5rem;
+    width: 4rem;
     margin: 0;
 }
 
@@ -86,6 +87,7 @@ hr{
 
 #name{
     font-size: clamp(3.4rem, 4vw, 5rem);
+    margin-bottom: -0.5rem
 }
 
 .onePad{
