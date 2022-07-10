@@ -185,19 +185,44 @@ hr{
     grid-gap: 2rem;
 }
 
-.projectButton{
-    height: 25rem;
-    background-color: green;
-}
-
 .project{
     background-color: grey;
-    height: 100%;
-    width: 100%;
+    height: 25rem;
 
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.project p{
+    font-family: "Source Code Pro";
     text-align: center;
+    color: yellow;
+}
+
+.projectName{
+    color: white;
+    font-size: 3rem;
+}
+
+.project:hover{
+    filter: brightness(150%);
+}
+
+.project:hover h3{
+    filter: brightness(70%);
+}
+
+#tictactoe{
+    background-image: url(images/tictactoe.jpg);
+    background-size: contain;
+}
+
+#wordle{
+    background-image: url(images/wordle.jpg);
+    background-size: contain;
 }
 
 #projectsHeader{
