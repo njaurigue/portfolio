@@ -173,7 +173,7 @@ hr{
 
 .sectionThree{
     background-color: black;
-    height: fit-content;
+    height: fit-content; 
 }
 
 #threeInfo{
@@ -185,9 +185,15 @@ hr{
     grid-gap: 2rem;
 }
 
+.projectButton{
+    height: 25rem;
+    background-color: green;
+}
+
 .project{
     background-color: grey;
-    height: 25rem;
+    height: 100%;
+    width: 100%;
 
     display: flex;
     flex-direction: column;
