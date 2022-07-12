@@ -215,6 +215,13 @@ hr{
     filter: brightness(70%);
 }
 
+.sectionThree h2{
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+}
+
 #tictactoe{
     background-image: url(images/tictactoe.jpg);
     background-size: contain;
