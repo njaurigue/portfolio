@@ -32,8 +32,8 @@ body{
 
 .icon{
     font-family: "Source Code Pro";
-    height: 25rem;
-    width: 25rem;
+    height: min(80%, 25rem);
+    width: min(80%, 25rem);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,7 +52,7 @@ body{
 }
 
 .summary img{
-    width: 6rem;
+    width: min(20%, 6rem);
     margin-bottom: 1rem;
 }
 
