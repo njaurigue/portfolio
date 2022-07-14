@@ -37,7 +37,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 3rem;
+    font-size: clamp(1rem, 5vmin, 3rem);
     margin-bottom: 1rem;
 }
 
