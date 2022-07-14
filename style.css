@@ -41,7 +41,7 @@ h1{
 /*------------------------SECTION ONE------------------------*/ 
 
 .sectionOne{
-    height: 100vh;
+    height: 90vh;
     font-family: 'Playfair Display', serif;
     display: flex;
     flex-direction: row;
@@ -59,9 +59,10 @@ h1{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    margin-top: 0;
 
     z-index: -1;
-    transform: translateZ(-10px) scale(2); 
+    transform: translateZ(-10px) scale(2.2); 
 }
 
 .landingText{
