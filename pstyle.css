@@ -39,8 +39,8 @@ body{
 .header h1{
     color: white;
     position: absolute;
-    left: 5rem;
-    font-size: 5rem;
+    left: min(5vmin, 5rem);
+    font-size: min(5vmin, 5rem);
 }
 
 #background{
