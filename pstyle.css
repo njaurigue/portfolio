@@ -39,8 +39,9 @@ body{
 .header h1{
     color: white;
     position: absolute;
-    left: min(5vmin, 5rem);
-    font-size: min(5vmin, 5rem);
+    margin-left: clamp(3rem, 5vmin, 5rem);
+    margin-bottom: clamp(3rem, 5vmin, 5rem);
+    font-size: clamp(3rem, 5vmin, 5rem);
 }
 
 #background{
@@ -64,6 +65,7 @@ body{
 /*------------------------FOOTER------------------------*/
 
 footer{
+    background-color: white;
     text-align: center;
     transform-style: preserve-3d;
 }
