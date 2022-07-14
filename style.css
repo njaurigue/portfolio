@@ -275,6 +275,11 @@ hr{
     transform-style: preserve-3d;
 }
 
+#fourInfo{
+    flex-direction: column;
+    text-align: center;
+}
+
 /*------------------------FOOTER------------------------*/
 
 footer{
