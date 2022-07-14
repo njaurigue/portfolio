@@ -51,7 +51,7 @@ body{
     object-fit: cover;
 
     z-index: -1;
-    transform: translateZ(-10px) translateY(-280px) scale(2.1);
+    transform: translateZ(-10px) translateY(-260px) scale(2.1);
 }
 
 /*------------------------PROJECT ONE------------------------*/
