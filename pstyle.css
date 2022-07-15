@@ -1,3 +1,7 @@
+html, body, .wrapper{
+    height: 100vh;
+}
+
 html{
     scroll-behavior: smooth;
     font-size: 10px;
@@ -5,7 +9,6 @@ html{
 
 .wrapper{
     background-color: rgb(24,24,24);
-    height: 100vh;
     overflow-y: auto;
     overflow-x: hidden;
     perspective: 10px;
