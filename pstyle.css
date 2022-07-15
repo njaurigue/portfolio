@@ -5,6 +5,7 @@ html{
 }
 
 .wrapper{
+    background-color: rgb(24,24,24);
     height: 100vh;
     overflow-y: auto;
     overflow-x: hidden;
@@ -12,7 +13,6 @@ html{
 }
 
 body{
-    background-color: rgb(24,24,24);
     font-family: "Source Code Pro";
     display: flex;
     flex-direction: column;
