@@ -12,6 +12,7 @@ html{
     overflow-y: auto;
     overflow-x: hidden;
     perspective: 10px;
+    margin: 0;
 }
 
 body{
