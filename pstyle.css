@@ -20,54 +20,87 @@ body{
 }
 
 .project{
-    color: white;
-    height: 60vh;
+    height: 50vh;
     width: 100%;
 
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     transform-style: preserve-3d;
 }
 
 .icon{
     font-family: "Source Code Pro";
-    height: min(25vh, 25rem);
-    width: min(25vh, 25rem);
+    height: min(22vh, 25rem);
+    width: min(22vh, 25rem);
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: clamp(1rem, 5vmin, 3rem);
+    font-size: clamp(1rem, 5vmin, 2.5rem);
     margin-bottom: 1rem;
     margin-right: 0.5rem;
 }
 
-.summary{
+.top{
+    color: white;
     height: 50%;
-    width: 100%;
+    width: min(100%, 400px);
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
-    justify-content: center;
 }
 
-.summary img{
-    width: min(20%, 6rem);
+.topRight{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    font-size: 1.75rem;
+    margin-left: 1rem;
     margin-bottom: 1rem;
 }
 
-.summary a{
+.topRight p{
+    margin: 0;
+}
+
+hr{
+    width: 100%;
+}
+
+.links{
+    font-size: 1.2rem;
+}
+
+.top a{
     color: white;
     text-decoration: none;
 }
 
-.summary a:hover{
+.top a:hover{
     filter: brightness(130%);
 }
 
-.description{
+.repo img{
+    filter: invert();
+}
+
+.bottom{
+    height: 50%;
+    width: min(100%, 700px);
+}
+
+.line{
     height: 50%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line img, .repo img{
+    height: 8rem;
 }
 
 /*------------------------HEADER------------------------*/
@@ -113,7 +146,7 @@ body{
     background-size: contain;
 }
 
-/*------------------------PROJECT ONE------------------------*/
+/*------------------------PROJECT TWO------------------------*/
 
 #projectTwo{
     background-color: black;
