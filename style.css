@@ -17,10 +17,10 @@ html{
 }
 
 .wrapper{
-    height: 100vh;
-    overflow-y: auto;
+    background-color: #b7b1fb;
     overflow-x: hidden;
     perspective: 10px;
+    margin: 0;
 }
 
 body{
@@ -54,7 +54,7 @@ h1{
 /*------------------------SECTION ONE------------------------*/ 
 
 .sectionOne{
-    height: 90vh;
+    height: 91vh;
     font-family: 'Playfair Display', serif;
     display: flex;
     flex-direction: row;
