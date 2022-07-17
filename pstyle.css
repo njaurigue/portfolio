@@ -57,7 +57,7 @@ body{
 .top{
     color: white;
     height: 50%;
-    width: min(100%, 400px);
+    width: min(100%, 450px);
     display: flex;
     flex-direction: row;
 }
@@ -171,9 +171,11 @@ hr{
 
 /*------------------------FOOTER------------------------*/
 
-footer{
+.footer{
     background-color: rgb(24,24,24);
     color: white;
     text-align: center;
     transform-style: preserve-3d;
+    margin: 0;
+    padding: 1vh 0;
 }
