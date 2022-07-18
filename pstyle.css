@@ -44,8 +44,8 @@ body{
 
 .icon{
     font-family: "Source Code Pro";
-    height: min(22vh, 24.5rem);
-    width: min(22vh, 24.5rem);
+    height: min(22vh, 24rem);
+    width: min(22vh, 24rem);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,6 +64,7 @@ body{
 }
 
 .topRight{
+    border: 1px solid red;
     width: 42%;
     display: flex;
     flex-direction: column;
