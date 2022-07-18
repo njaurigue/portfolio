@@ -122,7 +122,7 @@ hr{
 
 
 
-#name, #portfolio{
+#name, #portfolioHeader{
     margin: 0;
 }
 
@@ -220,6 +220,7 @@ hr{
 }
 
 #viewAll{
+    text-align: center;
     text-decoration: none;
 }
 
@@ -259,7 +260,7 @@ hr{
 }
 
 .project:hover{
-    filter: brightness(150%);
+    filter: brightness(140%);
 }
 
 .project:hover h3{
@@ -281,6 +282,15 @@ hr{
 #wordle{
     background-image: url(images/wordle.jpg);
     background-size: contain;
+}
+
+#portfolio{
+    background-image: url(images/portfolio.jpg);
+    background-size: contain;
+}
+
+#portfolio:hover{
+    filter: brightness(115%);
 }
 
 #projectsHeader{
