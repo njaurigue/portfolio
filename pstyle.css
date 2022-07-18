@@ -56,7 +56,6 @@ body{
 }
 
 .top{
-    border: 1px solid blue;
     color: white;
     height: 50%;
     width: min(100%, 450px);
@@ -66,7 +65,6 @@ body{
 }
 
 .topRight{
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
