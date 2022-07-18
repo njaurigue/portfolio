@@ -44,8 +44,8 @@ body{
 
 .icon{
     font-family: "Source Code Pro";
-    height: min(22vh, 24rem);
-    width: min(22vh, 24rem);
+    height: min(22vh, 25rem);
+    width: min(22vh, 25rem);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,16 +103,23 @@ hr{
 }
 
 .bottom{
-    height: 50%;
+    height: 45%;
     width: min(100%, 700px);
+    margin-top: 1rem;
 }
 
 .line{
+    color: white;
     height: 50%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
+}
+
+.line p{
+    font-size: 1.5rem;
 }
 
 .line img, .repo img{
@@ -173,10 +180,23 @@ hr{
     background-size: contain;
 }
 
-/*------------------------PROJECT TWO------------------------*/
+/*------------------------PROJECT THREE------------------------*/
 
 #projectThree{
     background-color: rgb(24,24,24);
+    height: 40vh;
+}
+
+#projectThree .top{
+    height: 62%;
+}
+
+#projectThree .bottom{
+    height: 25%;
+}
+
+#projectThree .line{
+    height: 100%;
 }
 
 #portfolioTitle{
