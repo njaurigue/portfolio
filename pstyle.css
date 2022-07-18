@@ -56,16 +56,17 @@ body{
 }
 
 .top{
+    border: 1px solid blue;
     color: white;
     height: 50%;
     width: min(100%, 450px);
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .topRight{
     border: 1px solid red;
-    width: 42%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
