@@ -104,7 +104,7 @@ hr{
 
 .bottom{
     height: 45%;
-    width: min(100%, 700px);
+    width: min(90%, 700px);
     margin-top: 1rem;
 }
 
@@ -119,11 +119,11 @@ hr{
 }
 
 .line p{
-    font-size: min(2vmin, 1.5rem);
+    font-size: min(3vmin, 1.5rem);
 }
 
-.line img, .repo img{
-    height: 8rem;
+.line img{
+    height: min(14vmin, 8rem);
 }
 
 /*------------------------HEADER------------------------*/
