@@ -112,7 +112,7 @@ hr{
 
 
 #emailIcon{
-    width: 3.65rem;
+    width: 3rem;
 }
 
 #githubIcon{
@@ -302,12 +302,31 @@ hr{
 
 .sectionFour{
     background-color: white;
+    height: fit-content;
+
     transform-style: preserve-3d;
 }
 
 #fourInfo{
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: repeat(2, 1fr);
     text-align: center;
+}
+
+.line{
+    border: 1px solid red;
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.line img{
+    height: 100%;
 }
 
 /*------------------------FOOTER------------------------*/
@@ -317,7 +336,7 @@ hr{
     text-align: center;
     transform-style: preserve-3d;
     margin: 0;
-    padding-bottom: 1vh;
+    padding: 1vh 0;
 }
 
 /*------------------------SECTION TWO------------------------ 
