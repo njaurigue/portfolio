@@ -49,7 +49,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: clamp(1rem, 5vmin, 2.5rem);
+    font-size: clamp(1rem, 5vmin, 2.3rem);
     margin-bottom: 1rem;
     margin-right: 0.5rem;
     text-decoration: none;
@@ -96,10 +96,6 @@ hr{
 
 .top a:hover{
     filter: brightness(120%);
-}
-
-.repo img{
-    filter: invert();
 }
 
 .bottom{
