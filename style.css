@@ -54,7 +54,7 @@ h1{
 /*------------------------SECTION ONE------------------------*/ 
 
 .sectionOne{
-    height: 90vh;
+    height: 80vh;
     font-family: 'Playfair Display', serif;
     display: flex;
     flex-direction: row;
@@ -79,7 +79,7 @@ h1{
     height: 150%;
     width: 150%;
     object-fit: cover;
-    margin-bottom: 20px;
+    margin-top: 8%;
     margin-left: 200px;
 
     z-index: -1;
