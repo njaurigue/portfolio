@@ -11,13 +11,13 @@
 }
 
 html{
-    background-color: #b7b1fb;
+    background-color: black;
     scroll-behavior: smooth;
     font-size: 10px;
 }
 
 .wrapper{
-    background-color: #b7b1fb;
+    background-color: black;
     overflow-x: hidden;
     perspective: 10px;
     margin: 0;
@@ -67,12 +67,20 @@ h1{
     z-index: -1;
 }
 
+#profilePhoto{
+    height: min(400px, 70%);
+    width: min(400px, 70%);
+    border-radius: 2000px;
+    margin-left: 20%;
+}
+
 #background{
     position: absolute;
-    height: 100%;
-    width: 100%;
+    height: 150%;
+    width: 150%;
     object-fit: cover;
-    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 200px;
 
     z-index: -1;
     transform: translateZ(-10px) scale(2.35); 
@@ -80,7 +88,7 @@ h1{
 
 .landingText{
     flex: 7;
-    margin-bottom: 4em;
+    /* margin-bottom: 4em; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -141,7 +149,7 @@ hr{
 }
 
 .onePad{
-    flex: 4;
+    flex: 6;
 }
 
 /*
