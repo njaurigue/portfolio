@@ -302,8 +302,6 @@ hr{
 }
 
 #portfolio{
-    width: 400px;
-    height: 400px;
     background-image: url(images/ucsd.jpeg);
     background-size: 300%;
     background-position-x: -95%;
