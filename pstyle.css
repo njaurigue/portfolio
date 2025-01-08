@@ -196,8 +196,11 @@ hr{
 }
 
 #portfolioTitle{
-    background-image: url("images/portfolio.jpg");
-    background-size: contain;
+    background-image: url("images/ucsd.jpeg");
+    background-size: 300%;
+    background-position-x: -95%;
+    background-position-y: 43%;
+    image-rendering: pixelated;
 }
 
 /*------------------------FOOTER------------------------*/
