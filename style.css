@@ -280,10 +280,10 @@ hr{
     text-decoration: none;
 }
 
-.project p{
+.project h3{
     font-family: "Source Code Pro";
     text-align: center;
-    color: yellow;
+    color: white;
 }
 
 .projectName{
@@ -321,6 +321,11 @@ hr{
     background-size: 300%;
     background-position-x: -95%;
     background-position-y: 43%;
+}
+
+#vscode{
+    background-image: url(images/vscode.png);
+    background-size: contain;
     image-rendering: pixelated;
 }
 

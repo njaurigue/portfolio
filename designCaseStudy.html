@@ -1,0 +1,221 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,intial-scale=1.0,viewport-fit=cover"/>
+        <meta name="theme-color" content="#181818"/>
+        <title>Noah Jaurigue | Design Case Study - VSCode</title>
+        <link href="designCaseStudyStyle.css" rel="stylesheet" type="text/css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+        <link rel="manifest" href="icon/site.webmanifest">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <div class="wrapper">
+        <body>
+            <div class="header">
+                <img src="images/projectSummaryBanner.png" id="background">
+                <h1>Enhancing the Developer Experience in VSCode</h1>
+                <h2><span class="highlight-text">Project Summary</span> provides comprehensive workflow suggestions and statistics to new and experienced developers alike.</h2>
+                <a href="index.html" id="homeButton">< Home</a>
+            </div>
+            <div class="section" id="overview">
+                <div class="overview-container">
+                    <div class="overview-content">
+                        <h2 class="overview-title">Overview</h2>
+                        <div class="overview-description">
+                            <p><i>Problem Statement</i>: Software engineers joining new projects feel overwhelmed and frustrated by the complexity of unfamiliar codebases, requiring a significant amount of time to understand the existing code structure and thereby hindering their productivity.</p>
+                            <p><i>Solution</i>: <span class="highlight-text">Project Summary</span> enables developers to quickly analyze the codebase's structure and functionality, allowing them to spend more time contributing and less time navigating.</p>
+                        </div>
+                        <h3 class="overview-list-title">Key Features</h3>
+                        <ul class="overview-list">
+                            <li>
+                                <span class="list-number">01</span>
+                                <div class="list-content">
+                                    <h4>Starting Point</h4>
+                                    <p>Quickly find the best starting point for learning and understanding your project in the most efficient manner possible.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="list-number">02</span>
+                                <div class="list-content">
+                                    <h4>Language Breakdown</h4>
+                                    <p>Break down the codebase by language to understand the different components and their relationships.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="list-number">03</span>
+                                <div class="list-content">
+                                    <h4>Framework Breakdown</h4>
+                                    <p>Understand the frameworks and libraries used in the project to gain a deeper understanding of the codebase.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="overview-image">
+                        <img src="images/laptopView.png" alt="Laptop View - Project Summary" id="overviewImage">
+                    </div>
+                </div>
+            </div>
+            <div class="section" id="userResearch">
+                <div class="userResearch-container">
+                    <div class="userResearch-left">
+                        <h2 class="userResearch-title-left">User Research</h2>
+                        <div class="userResearch-description-left">
+                            <p>We conducted user research interviews with the participants below to understand the common workflows of both Software Engineers and Computer Science students.</p>
+                            <p>Clarkson Phan - Software Engineer @ L3Harris</p>
+                            <p>Hieu Pham - Computer Science Student @ UC San Diego</p>
+                            <p>With their help, we were able to identify the following pain points:</p>
+                        </div>
+                    </div>
+                    <div class="userResearch-right">
+                        <h3 class="userResearch-list-title">Pain Points</h3>
+                        <ul class="userResearch-list">
+                            <li>
+                                <span class="red-x">✕</span>
+                                <div class="list-content">
+                                    <h4>Navigating Large Codebases</h4>
+                                    <p>Modern software projects often contain hundreds or even thousands of files and complex dependency structures that are difficult to navigate and understand.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-x">✕</span>
+                                <div class="list-content">
+                                    <h4>Onboarding Friction</h4>
+                                    <p>New team members can spend weeks trying to understand existing code before they can make meaningful contributions.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="red-x">✕</span>
+                                <div class="list-content">
+                                    <h4>Relying on Third-Party Extensions</h4>
+                                    <p>Developers rely on disconnected tools and extensions to gain insights and navigate their codebase, creating a fragmented workflow.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="section" id="uxFlows">
+                <div class="uxFlows-container">
+                    <div class="uxFlows-left">
+                        <div class="uxFlows-images">
+                            <div class="image-wrapper">
+                                <span class="flow-number">01</span>
+                                <img src="images/uxFlow1.png" alt="UX Flow Diagram 1" class="uxFlow-image">
+                            </div>
+                            <div class="image-wrapper">
+                                <span class="flow-number">02</span>
+                                <img src="images/uxFlow2.png" alt="UX Flow Diagram 2" class="uxFlow-image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uxFlows-right">
+                        <h2 class="uxFlows-title">UX Flows</h2>
+                        <div class="uxFlows-description">
+                            <p>The UX flows for Project Summary were designed to seamlessly integrate with the existing VSCode workflow, ensuring that developers can access insights without disrupting their coding process.</p>
+                        </div>
+                        <ul class="uxFlows-list">
+                            <li>
+                                <span class="list-number">01</span>
+                                <div class="list-content">
+                                    <h4>Project Summary Dialog</h4>
+                                    <p>When a developer first opens a new project, Project Summary automatically presents key insights about languages, frameworks, and entry points before the developer jumps into the codebase.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="list-number">02</span>
+                                <div class="list-content">
+                                    <h4>Project Summary Window</h4>
+                                    <p>As developers work, the Project Summary is always available at the click of a button to provides contextual information about dependencies and files to help them understand how components interact.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="section" id="finalPrototypes">
+                <h2 class="prototypes-title">Final Prototypes</h2>
+                <div class="prototypes-description">
+                    <p>After iterating through multiple versions of low-fidelity wireframes and garnering feedback from user testing sessions, we finalized the design for Project Summary. The prototypes below showcase the key screens and interactions that make up the final product experience.</p>
+                </div>
+                
+                <div class="video-container">
+                    <video id="prototypeVideo" class="prototype-video" controls poster="images/prototypeWalkthrough-poster.png" muted>
+                        <source src="images/prototypeWalkthrough.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p class="video-caption">Complete walkthrough of the Project Summary extension</p>
+                </div>
+                
+                <div class="prototypes-grid">
+                    <div class="prototype-item">
+                        <div class="image-wrapper">
+                            <img src="images/projectSummaryOnboarding.png" alt="Project Summary Onboarding" class="prototype-image">
+                        </div>
+                    <p class="prototype-caption">Project Summary Onboarding</p>
+                    </div>
+                    <div class="prototype-item">
+                        <div class="image-wrapper">
+                            <img src="images/projectSummaryTour.png" alt="Project Summary Tour" class="prototype-image">
+                        </div>
+                        <p class="prototype-caption">Project Summary Tour</p>
+                    </div>
+                    <div class="prototype-item">
+                        <div class="image-wrapper">
+                            <img src="images/projectSummarySplitView.png" alt="Project Summary Split-Screen View" class="prototype-image">
+                        </div>
+                        <p class="prototype-caption">Project Summary Split-Screen View</p>
+                    </div>
+                    <div class="prototype-item">
+                        <div class="image-wrapper">
+                            <img src="images/projectSummaryCornerView.png" alt="Project Summary Corner View (with Scroll)" class="prototype-image">
+                        </div>
+                        <p class="prototype-caption">Project Summary Corner View (with Scroll)</p>
+                    </div>
+                </div>
+            </div>
+            <p class="footer">
+                Coded by Noah Jaurigue &bull;
+                <span class="footer-date">July 2022 - Present</span>
+            </p>
+            
+            <script>
+                // Autoplay video when it comes into view
+                document.addEventListener('DOMContentLoaded', function() {
+                    const video = document.getElementById('prototypeVideo');
+                    
+                    // Create an Intersection Observer
+                    const observer = new IntersectionObserver((entries) => {
+                        entries.forEach(entry => {
+                            // If the video is visible in the viewport
+                            if (entry.isIntersecting) {
+                                video.play();
+                            } else {
+                                video.pause();
+                            }
+                        });
+                    }, {
+                        threshold: 0.5 // Trigger when 50% of the video is visible
+                    });
+                    
+                    // Start observing the video
+                    observer.observe(video);
+                });
+            </script>
+        </body>
+    </div>
+</html>
+
+<!-- intro (title, subtitle) -->
+<!-- overview (problem statement, solution, key features) -->
+<!-- user research (participants, pain points) -->
+<!-- market research  -->
+<!-- prototypes -->
+<!-- solution -->

@@ -143,12 +143,23 @@ hr{
     font-size: clamp(3rem, 5vmin, 5rem);
 }
 
+#homeButton{
+    position: relative;
+    margin-left: clamp(3rem, 5vmin, 5rem);
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: clamp(1.2rem, 2vmin, 2rem);
+    z-index: 2;
+    font-weight: bold;
+    color: white;
+}
+
 #background{
     position: absolute;
     height: 120%;
     width: 100%;
     object-fit: cover;
-    opacity: 0.8;
+    opacity: 0.6;
 
     z-index: -1;
     transform: translateZ(-10px) translateY(-260px) scale(2.2);
